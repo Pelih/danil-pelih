@@ -1,0 +1,106 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+header{
+	background-image: url('img/bg-slider.png');
+	padding-bottom:50%;
+	background-size:cover;
+}
+.logo {
+	position:absolute;
+	top:50px;
+	left:40px;
+}
+nav {
+	top:50px;
+	right:0;
+	position:absolute;
+	color:white;
+}
+ul{
+	list-style-type:none;
+}
+.item{
+	display:inline-block;
+	margin-right:40px;
+}
+.item a {
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.wrap{
+	text-align:center;
+}
+.portfolio-item {
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
+	padding:3px;
+}
+.portfolio-detail{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(48,48,48,0.6);
+	width:271px;
+	height:278px;
+	color:white;
+	display:none;
+	
+}
+.portfolio-detail h3{
+	margin-top:100px;
+}	
+.portfolio-item:hover .portfolio-detail{
+	display:block;
+}
+.br{
+	padding:70px;
+}
+
+	
+}
+
+.chat-wrap {
+	list-style-type:none;
+}	
+.chat-item{
+	min-height:300px;
+	margin-bottom:10%;
+}
+
+.chat-name{
+	height:30%;
+	float:left;
+	 margin-left:15%;
+}
+.chat{
+	height:400px;
+	float:right;
+	 margin-right:6%;
+	 padding:50px;
+}
+.text{
+	height:3px;
+	width:3px;
+}
+.thumb img{
+	width:19%;
+	height:19%;
+	display;block;
+	
+}
+
+
+
+	
+
+
+
+
+
+
