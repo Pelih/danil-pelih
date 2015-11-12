@@ -99,7 +99,8 @@ ul{
 	background-color:gray;
 	padding:10px;
 	color: black;
-	
+	display:block;
+	margin:20px;
 }
 
 
